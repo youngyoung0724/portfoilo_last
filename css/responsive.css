@@ -1,0 +1,260 @@
+@media (max-width:1199px){
+
+    /* header */
+    nav{
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    /* intro */
+    .intro .wrap{
+        width: 100%;
+        padding: 60px 40px;
+    }
+
+    /* aboutme */
+    .aboutme {
+        padding: 100px 0;
+    }
+    .aboutme .wrap{
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    .aboutme .wrap .timeline{
+        padding: 50px 10px 0;
+    }
+
+    /* skill */
+    .skill .wrap{
+        width: 100%;
+        padding: 0 40px 100px 40px;
+    }
+
+    /* portfolio */
+    .portfolio .wrap{
+        width: 100%;
+        padding: 100px 40px 100px;
+    }
+
+    .portfolio .wrap .contents .tabbbox .boxs .content{
+        width: 50%;
+    }
+
+    .portfolio .wrap .contents .tabbbox .boxs .text{
+        width: 50%;
+    }
+
+    /* footer */
+    footer .wrap{
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    footer .copyright .wrap{
+        width: 100%;
+    }
+}
+
+@media (max-width:991px){
+
+    /* header */
+    nav{
+        width: 100%;
+    }
+
+    /* intro */
+    .intro .wrap{
+        width: 100%;
+        padding: 50px 40px 0;
+    }
+    .intro .wrap .intros h2{
+        font-size: 80px;
+    }
+
+    /* aboutme */
+    .aboutme {
+        padding-bottom: 100px;
+    }
+    .aboutme .wrap{
+        width: 100%;
+    }
+    .aboutme .wrap .pr{
+        width: 100%;
+    }
+
+    .aboutme .wrap .me{
+        display: none;
+    }
+
+    .aboutme .wrap .timeline{
+        padding: 50px 10px 0;
+    }
+
+    /* skill */
+    .skill .wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .skill .wrap .skillsbox{
+        width: 100%;
+    }
+    .skill .textdeitor{
+        width: 100%;
+        text-align: center;
+    }
+    .skill .textdeitor .txt{
+        padding-top: 200px;
+        text-align: center;
+        position:static;
+    }
+
+    /* portfolio */
+    .portfolio .wrap{
+        width: 100%;
+        /* padding: 100px 10px; */
+    }
+
+    .portfolio .wrap .contents .tabbbox .boxs .content{
+        width: 50%;
+    }
+
+    .portfolio .wrap .contents .tabbbox .boxs .text{
+        width: 50%;
+        font-size: 14px;
+    }
+    .portfolio .wrap .contents .tabbbox .boxs .text p{
+        padding-bottom: 5px;
+    }
+
+    /* footer */
+    footer .wrap{
+        width: 100%;
+    }
+
+    footer .copyright .wrap{
+        width: 100%;
+    }
+}
+
+@media (max-width:767px){
+    /* header */
+    header{
+        cursor:none;
+        background-color: #fff;
+    }
+    header nav .res_menu {
+        position: absolute;
+        display: block;
+        top: 15px;
+        right: 20px;
+    }
+    header nav .res_menu img{
+        height: 30px;
+        cursor: pointer;
+    }
+    header nav ul{
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        background-color:rgba(255, 255, 255);
+        max-height: 0;
+        overflow-y: hidden;
+        transition:  max-height 0.5s;
+    }
+    header nav ul.active{
+        max-height: 300px;
+        border-bottom: 1px solid #bbb;
+    }
+    header nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul li a{
+        color:#1d67dd;
+    }
+    nav ul li:hover a{
+        color: #022050;
+    }
+
+    /* intro */
+    .intro .wrap {
+        padding: 0 20px;
+    }
+    .intro .wrap .intros {
+        height: auto;
+    }
+    .intro .wrap .intros h2{
+        font-size: 60px;
+    }
+    .intro .wrap .emoji{
+        display: none;
+    }
+
+    /* aboutme */
+    .aboutme .wrap{
+        padding: 0 10px;
+    }
+    .aboutme .title {
+        padding-bottom: 20px;
+    }
+
+    /* skill */
+    .skill .title {
+        padding-bottom: 20px;
+    }
+    .skill .wrap .skillsbox .box{
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+
+    .skill .textdeitor .txt{
+        padding-top: 100px;
+    }
+
+    /* portfolio */
+    .portfolio .wrap{
+        padding: 0 10px;
+    }
+    .portfolio .wrap .contents .tabbbox .boxs{
+        height: 300px;
+    }
+
+    .portfolio .wrap .contents .tabbbox .boxs .text{
+        text-align: center;
+    }
+
+    .portfolio .wrap .contents .tabbbox .boxs .text h1{
+        font-size: 18px;
+    }
+
+    /* footer */
+    footer .wrap{
+        padding: 0 10px;
+    }
+    footer .wrap .contact .title {
+        padding-bottom: 20px;
+    }
+    footer .wrap .contact .formlist{
+        width: 100%;
+        padding: 0 10px;
+    }
+    footer .wrap .contact{
+        width: 100%;
+        padding: 50px 0;
+    }
+    footer .thanks{
+        display: none;
+    }
+    footer .copyright .wrap{
+        width: 100%;
+    }
+
+
+
+
+}
