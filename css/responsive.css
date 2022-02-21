@@ -186,6 +186,7 @@
         padding: 0 20px;
     }
     .intro .wrap .intros {
+        width: 100%;
         height: auto;
     }
     .intro .wrap .intros h2{

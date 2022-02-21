@@ -242,6 +242,7 @@ $(document).ready(function(){
         `);
     };
 
+
     // portfolio - ajax 구성
     var $ajax = [
         {img : "ajax_img2.jpg",
@@ -268,11 +269,11 @@ $(document).ready(function(){
                 <div class="content" style="background-image:url(./img/${$ajax[i].img})">
                 </div>
                 <div class="text">
-                    <h1 class="font">${$ajax[i].title}</h1>
-                    <p class="font">${$ajax[i].explain}</p>
-                    <p class="font">${$ajax[i].version}</p>
-                    <p class="font">${$ajax[i].version2}</p>
-                    <a class="font" href="${$ajax[i].link}"target="_blank">바로가기</a>
+                    <h1>${$ajax[i].title}</h1>
+                    <p>${$ajax[i].explain}</p>
+                    <p>${$ajax[i].version}</p>
+                    <p>${$ajax[i].version2}</p>
+                    <a href="${$ajax[i].link}"target="_blank">바로가기</a>
                 </div>
         `);
     };
@@ -294,11 +295,11 @@ $(document).ready(function(){
                 <div class="content" style="background-image:url(./img/${$vue[i].img})">
                 </div>
                 <div class="text">
-                    <h1 class="font">${$vue[i].title}</h1>
-                    <p class="font">${$vue[i].explain}</p>
-                    <p class="font">${$vue[i].version}</p>
-                    <p class="font">${$vue[i].version2}</p>
-                    <a class="font" href="${$vue[i].link}"target="_blank">바로가기</a>
+                    <h1>${$vue[i].title}</h1>
+                    <p>${$vue[i].explain}</p>
+                    <p>${$vue[i].version}</p>
+                    <p>${$vue[i].version2}</p>
+                    <a href="${$vue[i].link}"target="_blank">바로가기</a>
                 </div>
         `);
     };
