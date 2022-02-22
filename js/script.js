@@ -147,7 +147,7 @@ $(document).ready(function(){
 
     // portfolio - web 구성
     var $web = [
-        {img : "web_img1.jpg",
+        {img : "web_img1.png",
         title : "Kuliner website", 
         explain : "HTML, CSS, JQUERY를 이용했습니다.",
         version: "PC 버전으로 제작되었습니다.",
@@ -155,15 +155,15 @@ $(document).ready(function(){
         link : "https://youngyoung0724.github.io/kuliner_web/"
         }, 
 
-        {img : "web_img2.jpg",
+        {img : "web_img2.png",
         title : "Cakehouse website", 
         explain : "HTML, CSS, JQUERY를 이용했습니다.",
         version: "PC 버전으로 제작되었습니다.",
         version2 : "",
-        link : "https://youngyoung0724.github.io/kuliner_web/"
+        link : "https://youngyoung0724.github.io/cakehouse/"
         }, 
 
-        {img : "web_img3.jpg",
+        {img : "web_img3.png",
         title : "세종병원", 
         explain : "HTML, CSS를 이용했습니다.",
         version: "PC 버전으로 제작되었습니다.",
@@ -171,7 +171,7 @@ $(document).ready(function(){
         link : "https://youngyoung0724.github.io/sejonghosptial/"
         }, 
 
-        {img : "web_img4.jpg",
+        {img : "web_img4.png",
         title : "Cashmere", 
         explain : "HTML, CSS를 이용했습니다.",
         version: "PC 버전으로 제작되었습니다.",
@@ -179,7 +179,7 @@ $(document).ready(function(){
         link : "https://youngyoung0724.github.io/Cashmere/"
         }, 
 
-        {img : "web_img5.jpg",
+        {img : "web_img5.png",
         title : "Bang & Olufsen", 
         explain : "HTML, CSS를 이용했습니다.",
         version: "PC 버전으로 제작되었습니다.",
@@ -187,7 +187,7 @@ $(document).ready(function(){
         link : "https://youngyoung0724.github.io/Bang-Olufsen/"
         }, 
 
-        {img : "web_img6.jpg",
+        {img : "web_img6.png",
         title : "InvestPlan", 
         explain : "HTML, CSS, JQUERY를 이용했습니다.",
         version: "PC 버전으로 제작되었습니다.",
@@ -195,7 +195,7 @@ $(document).ready(function(){
         link : "https://youngyoung0724.github.io/InvestPlan/"
         }, 
 
-        {img : "web_img7.jpg",
+        {img : "web_img7.png",
         title : "INSPACE", 
         explain : "HTML, CSS, JQUERY를 이용했습니다.",
         version: "PC 버전으로 제작되었습니다.",
@@ -203,7 +203,7 @@ $(document).ready(function(){
         link : "https://youngyoung0724.github.io/INSPACE/"
         }, 
 
-        {img : "web_img8.jpg",
+        {img : "web_img8.png",
         title : "PUMA", 
         explain : "HTML, CSS, JQUERY, JAVASCRIPT를 이용했습니다.",
         version: "반응형으로 제작되었습니다.",
@@ -211,7 +211,7 @@ $(document).ready(function(){
         link : "https://youngyoung0724.github.io/PUMA/"
         }, 
 
-        {img : "web_img9.jpg",
+        {img : "web_img9.png",
         title : "Origin", 
         explain : "HTML, CSS, JQUERY, JAVASCRIPT, GRID를 이용했습니다.",
         version: "반응형으로 제작되었습니다.",
@@ -219,7 +219,7 @@ $(document).ready(function(){
         link : "https://youngyoung0724.github.io/Origin/"
         }, 
 
-        {img : "web_img10.jpg",
+        {img : "web_img10.png",
         title : "Hanwha", 
         explain : "HTML, CSS, JQUERY, JAVASCRIPT를 이용했습니다.",
         version: "반응형으로 제작되었습니다.",
@@ -231,7 +231,8 @@ $(document).ready(function(){
     for(i=0; i<$web.length; i++){
         $(".portfolio .wrap .contents .web").append(`
                 <div class="boxs">
-                <div class="content" style="background-image:url(./img/${$web[i].img})">
+                <div class="contentimg">
+                    <img src="./img/${$web[i].img}" alt="">
                 </div>
                 <div class="text">
                     <h1 class="font">${$web[i].title}</h1>
@@ -246,7 +247,7 @@ $(document).ready(function(){
 
     // portfolio - ajax 구성
     var $ajax = [
-        {img : "ajax_img2.jpg",
+        {img : "ajax_img1.png",
         title : "영화 장사리 홍보사이트", 
         explain : "HTML, CSS, JQUERY, AJAX를 이용했습니다.",
         version: "",
@@ -254,7 +255,7 @@ $(document).ready(function(){
         link : "https://youngyoung0724.github.io/Battle-of-Jangsari/"
         }, 
 
-        {img : "ajax_img1.jpg",
+        {img : "ajax_img2.png",
         title : "Weather", 
         explain : "HTML, CSS, JQUERY, AJAX를 이용했습니다.",
         version: "날씨 API를 받아와서 제작했습니다.",
@@ -267,7 +268,8 @@ $(document).ready(function(){
     for(i=0; i<$ajax.length; i++){
         $(".portfolio .wrap .contents .ajax").append(`
                 <div class="boxs">
-                <div class="content" style="background-image:url(./img/${$ajax[i].img})">
+                <div class="contentimg">
+                    <img src="./img/${$ajax[i].img}" alt="">
                 </div>
                 <div class="text">
                     <h1>${$ajax[i].title}</h1>
@@ -281,7 +283,7 @@ $(document).ready(function(){
 
     // portfolio - vue 구성
     var $vue = [
-        {img : "vue_img1.jpg",
+        {img : "vue_img1.png",
         title : "Film Makers", 
         explain : "HTML, CSS, VUE를 이용했습니다.",
         version: "PC 버전으로 제작되었습니다.",
@@ -293,7 +295,8 @@ $(document).ready(function(){
     for(i=0; i<$vue.length; i++){
         $(".portfolio .wrap .contents .vue").append(`
                 <div class="boxs">
-                <div class="content" style="background-image:url(./img/${$vue[i].img})">
+                <div class="contentimg">
+                    <img src="./img/${$vue[i].img}" alt="">
                 </div>
                 <div class="text">
                     <h1>${$vue[i].title}</h1>

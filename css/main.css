@@ -491,18 +491,34 @@ nav ul li:hover a{
     box-shadow: 5px 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.portfolio .wrap .contents .tabbbox .boxs .content{
-    width: 40%;
-    height: 100%;
-    padding: 0 10px;
-    background-size: auto 100%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    transition: background-size 0.5s;
+/* .portfolio .wrap .contents .tabbbox .boxs .content{
+    width: 100%; height: 100%; overflow: hidden; position: relative;
     box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3);
 }
-.portfolio .wrap .contents .tabbbox .boxs .content:hover{
-    background-size:auto 110%;
+.portfolio .wrap .contents .tabbbox .boxs .content:hover img {
+    position: absolute; width: 100%; top:0; left:0; transform:translate(0); transition: transform 8s;
+    background-size: contain;
+}
+.portfolio .wrap .contents .tabbbox .boxs .content img {
+    /* transform:translateY(calc(-100% + 350px));
+} */
+
+.portfolio .wrap .contents .tabbbox .boxs .contentimg {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.portfolio .wrap .contents .tabbbox .boxs .contentimg img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translate(0);
+    transition: transform 8s;
+}
+.portfolio .wrap .contents .tabbbox .boxs .contentimg:hover img {
+    transform: translateY(calc(-100% + 350px));
 }
 
 .portfolio .wrap .contents .tabbbox .boxs .text{
