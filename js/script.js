@@ -51,6 +51,7 @@ $(document).ready(function(){
     // aboutme - title 
     $(".aboutme .title span").hover(function(){
         $(".trace_circle").addClass("active");
+        console.log("마우스");
     },function(){
         $(".trace_circle").removeClass("active");
     });
