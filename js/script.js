@@ -212,11 +212,11 @@ $(document).ready(function(){
         }, 
 
         {img : "web_img9.png",
-        title : "Origin", 
+        title : "Move Poster", 
         explain : "HTML, CSS, JQUERY, JAVASCRIPT, GRID를 이용했습니다.",
         version: "반응형으로 제작되었습니다.",
         version2 : "",
-        link : "https://youngyoung0724.github.io/Origin/"
+        link : "https://youngyoung0724.github.io/MovePoster/"
         }, 
 
         {img : "web_img10.png",
