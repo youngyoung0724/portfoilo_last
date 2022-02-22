@@ -212,7 +212,7 @@ $(document).ready(function(){
         }, 
 
         {img : "web_img9.png",
-        title : "Move Poster", 
+        title : "Movie Poster", 
         explain : "HTML, CSS, JQUERY, JAVASCRIPT, GRID를 이용했습니다.",
         version: "반응형으로 제작되었습니다.",
         version2 : "",
