@@ -105,7 +105,7 @@ $(document).ready(function(){
             startCount++;
             // console.log(startCount);
             $(".box").eq(index).find(".count").text(startCount);
-          }else if(startCount == sel_count){  //startCount++ 도달되었으나 값이 적용이 되지 않은 경우, 최종적으로 현재 저장된 data-limit 값을 넣겠다는 의미
+          }else if(startCount == sel_count){ 
               $(".box").eq(index).find(".count").text(sel_count);
           }else{
             clearInterval(counter);
@@ -333,14 +333,11 @@ $(document).ready(function(){
     });
 
     var r_menu = document.querySelector("header .res_menu img");
-    //r_menu => 클릭할 대상
 
     var targetMenu = document.querySelector("header nav ul");
-    //targetMenu => 슬라이드 다운될 대상 
 
     r_menu.addEventListener("click", function(){
         var targetActive = targetMenu.classList.contains("active"); 
-        //true 또는 flase 메뉴에 active가 없으면 flase
         console.log(targetActive);
         if(targetActive == false ){
             targetMenu.classList.add("active");
