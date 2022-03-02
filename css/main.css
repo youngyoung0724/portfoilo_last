@@ -390,12 +390,11 @@ nav ul li:hover a{
 
 
 .skill .wrap .skillsbox .box svg circle:nth-child(2){
-    stroke-linecap: butt; /*스트로크의 선 끝부분 처리 butt, round, project*/
-    stroke-dasharray: 440;  /* 2*3.14*70(반지름) = 439.6  ~= 440  */
+    stroke-linecap: butt; 
+    stroke-dasharray: 440;
     stroke:#3d87fd;
     transition: stroke-dashoffset 2s linear;
 }
-
 
 .skill .textdeitor{
     width: 30%;

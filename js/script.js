@@ -92,20 +92,21 @@ $(document).ready(function(){
 
     let startCount = 0;
 
-    $(".skillsbox .box").each(function(index){
-        console.log(index);
-        console.log(this);
+    $(".skill .box").each(function(index){
+        // console.log(index);
+        // console.log(this);
         const sel_count = $(this).find(".count").attr("data-limit");
         console.log(sel_count);
   
         $(this).find("circle:eq(1)").css("stroke-dashoffset", `calc(440 - 440 * ${sel_count} / 100)`);
+  
   
         const counter = setInterval(function(){
           if(startCount < sel_count){
             startCount++;
             // console.log(startCount);
             $(".box").eq(index).find(".count").text(startCount);
-          }else if(startCount == sel_count){ 
+          }else if(startCount == sel_count){  //startCount++ 도달되었으나 값이 적용이 되지 않은 경우, 최종적으로 현재 저장된 data-limit 값을 넣겠다는 의미
               $(".box").eq(index).find(".count").text(sel_count);
           }else{
             clearInterval(counter);
