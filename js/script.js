@@ -308,13 +308,14 @@ $(document).ready(function(){
                 </div>
         `);
     };
+
     var $php = [
-        { img : "emoji.png",
-        title : "사이트 추가예정", 
-        // explain : "HTML, CSS, VUE를 이용했습니다.",
-        // version: "PC 버전으로 제작되었습니다.",
-        // version2 : "",
-        // link : "https://youngyoung0724.github.io/Vue_site/"
+        { img : "php_img1.png",
+        title : "Yami Mile", 
+        explain : "HTML, CSS, JQUERY, JAVASCRIPT를 이용했습니다.",
+        version: "PC 버전으로 제작되었고 가상의 사이트를 만들었습니다.",
+        version2 : "",
+        link : "http://kingeunyoung.dothome.co.kr/mile/"
         }, 
     ]
 
@@ -326,6 +327,10 @@ $(document).ready(function(){
                 </div>
                 <div class="text">
                     <h1>${$php[i].title}</h1>
+                    <p>${$php[i].explain}</p>
+                    <p>${$php[i].version}</p>
+                    <p>${$php[i].version2}</p>
+                    <a href="${$php[i].link}"target="_blank">바로가기</a>
                 </div>
         `);
     };
