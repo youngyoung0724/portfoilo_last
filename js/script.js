@@ -307,6 +307,27 @@ $(document).ready(function(){
                 </div>
         `);
     };
+    var $php = [
+        { img : "emoji.png",
+        title : "사이트 추가예정", 
+        // explain : "HTML, CSS, VUE를 이용했습니다.",
+        // version: "PC 버전으로 제작되었습니다.",
+        // version2 : "",
+        // link : "https://youngyoung0724.github.io/Vue_site/"
+        }, 
+    ]
+
+    for(i=0; i<$vue.length; i++){
+        $(".portfolio .wrap .contents .php").append(`
+                <div class="boxs">
+                <div class="contentimg">
+                    <img src="./img/${$php[i].img}" alt="">
+                </div>
+                <div class="text">
+                    <h1>${$php[i].title}</h1>
+                </div>
+        `);
+    };
 
 
     // 클릭했을시 해당 메뉴로 이동 
