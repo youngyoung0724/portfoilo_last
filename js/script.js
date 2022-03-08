@@ -227,6 +227,14 @@ $(document).ready(function(){
         version2 : "메인페이지와 5개의 서브페이지로 이루어져 있습니다.",
         link : "https://youngyoung0724.github.io/Hanwha/main.html"
         }, 
+
+        {img : "web_img11.png",
+        title : "Wedding", 
+        explain : "HTML, CSS, JQUERY, JAVASCRIPT를 이용했습니다.",
+        version: "PC 버전으로 제작되었습니다.",
+        version2 : "",
+        link : "https://youngyoung0724.github.io/wedding/"
+        }, 
     ]
 
     for(i=0; i<$web.length; i++){
